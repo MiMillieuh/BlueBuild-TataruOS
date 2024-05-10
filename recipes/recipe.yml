@@ -67,8 +67,6 @@ modules:
       - freetype
       - intel-media-driver
       - nautilus-python
-      - cronie
-      - cronie-anacron
       #
       # Virt Tools
       - qemu
