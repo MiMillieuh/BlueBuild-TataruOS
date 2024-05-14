@@ -67,6 +67,7 @@ modules:
       - freetype
       - intel-media-driver
       - nautilus-python
+      - nmap
       #
       # Virt Tools
       - qemu
