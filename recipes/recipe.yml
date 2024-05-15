@@ -43,6 +43,7 @@ modules:
       #
       # Sys Comps
       - sushi
+      - speech-dispatcher
       - qgnomeplatform-qt5
       - langpacks-fr
       - libratbag-ratbagd
