@@ -4,11 +4,11 @@ THIS ISN'T INTENDED FOR ANYONE TO USE IT, IT'S A PERSONAL REPO USED FOR MY NEEDS
 
 Rebase :
 
-`sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/mimillieuh/bluebuild-tataru-os:latest`
+`sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/mimillieuh/ame-tataru-os:latest`
 
 Signed Rebase : 
 
-`sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/mimillieuh/bluebuild-tataru-os:latest`
+`sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/mimillieuh/ame-tataru-os:latest`
 
 ![270388194-ff6dcb21-c7d9-4df2-98d4-141b6b21ce14](https://github.com/MiMillieuh/BlueBuild-TataruOS/assets/52078885/07b63d9e-c19a-4c66-afda-fc8fc6923081)
 
