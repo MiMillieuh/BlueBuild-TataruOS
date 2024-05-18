@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: bluebuild-tataru-os
+name: ame-tataru-os
 # description will be included in the image's metadata
 description: A cringe personal BlueBuild made for the glory of Tataru Taru !
 
