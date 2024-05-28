@@ -95,6 +95,7 @@ modules:
       - cairo-gobject-devel
       #
       # Devel
+      - go
       - gtk3-devel
       - docker-ce
       - docker-ce-cli
