@@ -93,7 +93,6 @@ modules:
       - cairo-devel
       - gobject-introspection-devel
       - cairo-gobject-devel
-      - libstdc++
       #
       # Devel
       - go
