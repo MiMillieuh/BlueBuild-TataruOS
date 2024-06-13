@@ -85,7 +85,7 @@ modules:
       - gcc
       - cmake
       - ninja-build
-      # - gcc-c++
+      - gcc-c++
       - clang
       - python-devel
       - dmidecode
