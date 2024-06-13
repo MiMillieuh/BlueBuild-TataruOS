@@ -17,7 +17,7 @@ modules:
                   # in /usr/etc/ in the image. read more in files module reference.
   - type: containerfile
     snippets:
-      - RUN rpm-ostree override replace --experimental --from repo=updates libstdc++ libgomp libgcc
+      - RUN rpm-ostree override replace --experimental --from repo=updates libstdc++ libgomp libgcc cpp
 
   - type: rpm-ostree
     repos:
