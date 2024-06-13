@@ -17,11 +17,7 @@ modules:
                   # in /usr/etc/ in the image. read more in files module reference.
   - type: containerfile
     snippets:
-      - RUN rpm-ostree override replace \
-      --experimental \
-      --from repo=updates \
-        cpp \
-        || true && \
+      - RUN rpm-ostree override replace --experimental --from repo=updates cpp || true && 
 
   - type: rpm-ostree
     repos:
