@@ -80,11 +80,11 @@ modules:
       - libva-utils
       #
       # Virt Tools
-      - qemu
-      - qemu-kvm
-      - libvirt
-      - virt-install
-      - bridge-utils
+      # - qemu
+      # - qemu-kvm
+      # - libvirt
+      # - virt-install
+      # - bridge-utils
       #
       # Sys Devel deps
       - kernel-tools
