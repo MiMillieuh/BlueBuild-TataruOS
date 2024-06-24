@@ -15,9 +15,9 @@ modules:
       - usr: /usr # copies config/files/usr into your image's /usr.
                   # put configuration files you want in /etc/ on a booted system 
                   # in /usr/etc/ in the image. read more in files module reference.
-  - type: containerfile
-    snippets:
-      - RUN rpm-ostree override replace --experimental --from repo=updates libstdc++ libgomp libgcc cpp
+  #- type: containerfile
+   # snippets:
+    #  - RUN rpm-ostree override replace --experimental --from repo=updates libstdc++ libgomp libgcc cpp
 
   - type: rpm-ostree
     repos:
